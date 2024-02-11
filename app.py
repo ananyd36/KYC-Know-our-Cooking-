@@ -39,7 +39,7 @@ def input_image_setup(uploaded_file):
 
 
 
-st.set_page_config(page_title="Gemini Health App")
+st.set_page_config(page_title="KYC")
 
 st.header("KYM(Know your Meal)")
 # input=st.text_input("Input Prompt: ",key="input")
