@@ -39,9 +39,9 @@ def input_image_setup(uploaded_file):
 
 
 
-st.set_page_config(page_title="KYC")
+st.set_page_config(page_title="Health KYC")
 
-st.header("KYM(Know your Meal)")
+st.header("Health KYC")
 # input=st.text_input("Input Prompt: ",key="input")
 uploaded_file = st.file_uploader("Upload an Image of your meal!", type=["jpg", "jpeg", "png"])
 image=""   
